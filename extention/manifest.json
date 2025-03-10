@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Text Summarizer",
+  "version": "1.6",
+  "description": "Displays multiple random sentences from the current webpage while keeping original summarization functions. Includes mental health breaks.",
+  "permissions": ["activeTab", "storage", "scripting", "alarms", "notifications"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
