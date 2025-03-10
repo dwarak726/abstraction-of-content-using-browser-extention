@@ -27,7 +27,7 @@ abstraction-of-content-using-browser-extention is a Chrome extension designed to
 4. Enable **Developer Mode** (toggle on the top right).
 5. Click **Load Unpacked** and select the extension folder under your cloned project folder.
 6. The extension will be added to Chrome.
-7. Now before enableing the website run the excrtractor.py and keep it running and u can now use your website
+7. Now before enableing the website run the classifier.py and keep it running and u can now use your website
 
 ## Usage
 1. Browse the web as usual.
