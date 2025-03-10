@@ -34,6 +34,8 @@ abstraction-of-content-using-browser-extention is a Chrome extension designed to
 2. The extension will automatically send its contents to a 
 3. If sensitive content is detected, it will be blurred or rephrased.
 4. Click the extension icon to open the sidebar for more insights and stress-relief tools.
+## Sample:
+![pg](https://github.com/dwarak726/abstraction-of-content-using-browser-extention/blob/main/sample.png)
 
 ## Technologies Used
 - **Machine Learning**: RNN-based text classification.
